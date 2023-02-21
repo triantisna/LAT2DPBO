@@ -1,27 +1,27 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class main
+public class Main
 {
     public static void main(String[] args){
         Human Trian = new Human();
-        Trian.set_nama("Trian");
-        Trian.set_NIM("2001408");
-        Trian.set_NIK("000112333");
-        Trian.set_jenis_kelamin("Laki-Laki");
-        Trian.set_email_edu("triannih@email.edu");
-        Trian.set_asal_univ("UPI");
-        Trian.set_fakultas("Depilkom");
-        Trian.set_prodi("Ilmu Komputer");
+        Trian.setnama("Trian");
+        Trian.setNIM("2001408");
+        Trian.setNIK("000112333");
+        Trian.setjenis_kelamin("Laki-Laki");
+        Trian.setemail_edu("triannih@email.edu");
+        Trian.setasal_univ("UPI");
+        Trian.setfakultas("Depilkom");
+        Trian.setprodi("Ilmu Komputer");
 
-        System.out.printIn(">> Data Mahasiswa Cumlaude <<");
-        System.out.printIn("Nama        :" + Trian.get_nama());
-        System.out.printIn("NIM         :" + Trian.get_NIM());
-        System.out.printIn("NIK         :" + Trian.get_NIK());
-        System.out.printIn("Kelamin     :" + Trian.get_jenis_kelamin());
-        System.out.printIn("E-Mail      :" + Trian.get_jenis_kelamin());
-        System.out.printIn("Universitas :" + Trian.get_asal_univ());
-        System.out.printIn("Fakultas    :" + Trian.get_fakultas());
-        System.out.printIn("Prodi       :" + Trian.get_prodi());
+        System.out.println(">> Data Mahasiswa Cumlaude <<");
+        System.out.println("Nama        :" + Trian.getnama());
+        System.out.println("NIM         :" + Trian.getNIM());
+        System.out.println("NIK         :" + Trian.getNIK());
+        System.out.println("Kelamin     :" + Trian.getjenis_kelamin());
+        System.out.println("E-Mail      :" + Trian.getjenis_kelamin());
+        System.out.println("Universitas :" + Trian.getasal_univ());
+        System.out.println("Fakultas    :" + Trian.getfakultas());
+        System.out.println("Prodi       :" + Trian.getprodi());
     }
 }

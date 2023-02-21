@@ -1,33 +1,34 @@
-public class Human
+class Human extends Mahasiswa
 {
     private String NIK;
     private String nama;
     private String jenis_kelamin;
 
-    public Human(){
+    public Human()
+    {
         this.NIK = "";
         this.nama = "";
         this.jenis_kelamin = "";
     }
 
-    public String get_NIK(){
+    public String getNIK(){
         return this.NIK;
     }
-    public void set_NIK(String NIK){
+    public void setNIK(String NIK){
         this.NIK = NIK; 
     }
 
-    public String get_nama(){
+    public String getnama(){
         return this.nama;
     }
-    public void set_nama(String nama){
+    public void setnama(String nama){
         this.nama = nama; 
     }
 
-    public String get_jenis_kelamin(){
+    public String getjenis_kelamin(){
         return this.jenis_kelamin;
     }
-    public void set_jenis_kelamin(String jenis_kelamin){
+    public void setjenis_kelamin(String jenis_kelamin){
         this.jenis_kelamin = jenis_kelamin;
     }
 }

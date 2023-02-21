@@ -1,4 +1,4 @@
-public class Mahasiswa
+class Mahasiswa extends SivitasAkademik
 {
     private String NIM;
     private String nama;
@@ -6,7 +6,8 @@ public class Mahasiswa
     private String fakultas;
     private String prodi;
 
-    public Mahasiswa(){
+    public Mahasiswa()
+    {
         this.NIM = "";
         this.nama = "";
         this.jenis_kelamin = "";
@@ -14,39 +15,39 @@ public class Mahasiswa
         this.prodi = "";
     }
 
-    public String get_NIM(){
+    public String getNIM(){
         return this.NIM;
     }
-    public void set_NIM(String NIM){
+    public void setNIM(String NIM){
         this.NIM = NIM; 
     }
 
-    public String get_nama(){
+    public String getnama(){
         return this.nama;
     }
-    public void set_nama(String nama){
-        this.nama = nama;
+    public void setnama(String nama){
+        this.nama = nama; 
     }
 
-    public String get_jenis_kelamin(){
-        return this.jenis_kelamin;
-    }
-    public void set_jenis_kelamin(String jenis_kelamin){
-        this.jenis_kelamin = jenis_kelamin; 
-    }
-
-    public String get_fakultas(){
+    public String getfakultas(){
         return this.fakultas;
     }
-    public void set_fakultas(String fakultas){
+    public void setfakultas(String fakultas){
         this.fakultas = fakultas; 
     }
 
-     public String get_prodi(){
+     public String getprodi(){
         return this.prodi;
     }
-    public void set_prodi(String prodi){
+    public void setprodi(String prodi){
         this.prodi = prodi; 
+    }
+
+    public String getjenis_kelamin(){
+        return this.jenis_kelamin;
+    }
+    public void setjenis_kelamin(String jenis_kelamin){
+        this.jenis_kelamin = jenis_kelamin;
     }
 
 }
