@@ -1,3 +1,9 @@
+	/* 
+	Saya Trian Tisna Athalla 2001408 mengerjakan LAT2DPBO 
+	dalam mata kuliah Struktur Data untuk keberkahanNya maka 
+	saya tidak melakukan kecurangan yang seperti telah dispesifikasikan. Aamiin 
+	*/
+
 Multi-level Inheritance :
 	class A adalah induk yang mewariskan ke class lain yaitu ke class B,
 kemudian mewariskan lagi ke class C
